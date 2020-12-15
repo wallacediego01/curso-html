@@ -45,35 +45,36 @@ a{
     color:#f2a3a5;
 
 }
-#one .inner{
-    position: relative;
+.sub{
+    width: 100%;
+    height: 200px;
     display:inline-block;
-    height:300px;
-    width:70%;
-    margin:0 auto;
-    padding-left:60px;
-    font-size: 20px;
-    
-    
+    margin: 0 auto;
     
 }
-#alt .content{
+p{
+    color:black;
+}
+#topo{
+    max-width:100%;
+    margin:auto;
     display:inline-block;
+    padding: 20px;
     position: relative;
-    width:50%;
-    height: 300px;
-    float:left;
+}
+.content{
+    display: inline-block;
+    position: relative;
+    width:30%;
+    height: 100px;
     background-color: #ddd;
+    background-color: transparent;
+    padding: 20px;
 }
-span h1{
-    width:800px;
-    height:100px;
-    padding-top: 10px;
-    margin:0 auto;
-    font-size:30px;
-    font-family: inherit;
-    vertical-align: baseline;
-    color:#ffffff
+.image-fit{
+    width: 80%;
+    height:50px;
+    position:relative;
 }
 #banner h1{
     font-size: 30px;
@@ -81,11 +82,7 @@ span h1{
     letter-spacing: 3px;
     color:#ffffff;
 }
-#footer{
-    width:100%;
-    height: 500px;
-    background-color:#e5474b;
-    color:#f2a3a5;
+
 }
 label{
     display:inline-block;
@@ -102,6 +99,9 @@ label{
     outline:0;
     margin-top:6px;
     background-color: transparent;
+    float: left;
+    display: inline-block;
+    
 }
 textarea{
     padding:10px;
@@ -132,21 +132,36 @@ h2{
     border-color:rgba(255, 255, 255, 0.25);
     color:#ffffff;
 }
+#footer{
+    display: inline-block;
+    width:100%;
+    height: 600px;
+    background-color:#e5474b;
+    color:#f2a3a5;
+    position: relative;
+}
 .rodape{
+    position:relative;
     max-width:1200px;
     margin:0 auto;
+    float: left;
+    height: 600px;
     
 }
-.questions{
+.question{
     display:inline-block;
-    margin-bottom: 0px;
+    padding: 20px;
     color:#ffffff;
     font-family: sans-serif;
     outline:0px;
-    float:left;
+    margin-top: 0px;
 }
-article{
-    display: inline-block;
-    max-width:1200px;
-    margin:0 auto;
+.question2{
+    display:inline-block;
+    padding: 20px;
+    color:#ffffff;
+    font-family: sans-serif;
+    outline:0px;
+    
+
 }
