@@ -45,16 +45,27 @@ a{
     color:#f2a3a5;
 
 }
-.inner{
+#one .inner{
     position: relative;
     display:inline-block;
-    height:1000px;
-    width:800px;
+    height:300px;
+    width:70%;
     margin:0 auto;
-    font-size: 25px;
+    padding-left:60px;
+    font-size: 20px;
+    
+    
     
 }
-  span h1{
+#alt .content{
+    display:inline-block;
+    position: relative;
+    width:50%;
+    height: 300px;
+    float:left;
+    background-color: #ddd;
+}
+span h1{
     width:800px;
     height:100px;
     padding-top: 10px;
@@ -105,31 +116,37 @@ textarea{
     background-color: transparent;
 }
 h2{
-    padding:30px;
     display:block;
-    color: #ffffff;
+    font-size:30px;
+    color:#e5474b;
+    padding-top:50px;
+    font-size: 30px;
+    margin:0 auto;
+    
 }
-.button{
+.button {
     padding:10px;
     font-size:15px;
     border: 2px solid #ccc;
     background-color: transparent;
     border-color:rgba(255, 255, 255, 0.25);
     color:#ffffff;
-    
 }
 .rodape{
     max-width:1200px;
     margin:0 auto;
     
 }
-.question{
+.questions{
     display:inline-block;
     margin-bottom: 0px;
     color:#ffffff;
     font-family: sans-serif;
     outline:0px;
+    float:left;
 }
 article{
-    display:inline-block
+    display: inline-block;
+    max-width:1200px;
+    margin:0 auto;
 }
