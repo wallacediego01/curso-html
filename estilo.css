@@ -16,10 +16,10 @@
 }
 a.logo{
     color:#e547;
-    font-family:cursive;
+    font-family: cursive;
     float:left;
     text-decoration:none;
-    font-size: 25px;  
+    font-size: 30px;  
 }
 a{
     color:#ffffff;
@@ -43,14 +43,26 @@ a{
     background-size: 1200px;
     background-repeat: no-repeat;
     color:#f2a3a5;
+
 }
-  
-span{
+.inner{
+    position: relative;
+    display:inline-block;
+    height:1000px;
+    width:800px;
+    margin:0 auto;
+    font-size: 25px;
+    
+}
+  span h1{
+    width:800px;
+    height:100px;
+    padding-top: 10px;
+    margin:0 auto;
     font-size:30px;
     font-family: inherit;
     vertical-align: baseline;
-    color:#ffffff;
-    text-align: ;
+    color:#ffffff
 }
 #banner h1{
     font-size: 30px;
@@ -74,7 +86,8 @@ label{
 .texto{
     width:500px;
     font-size:15px;
-    border: 4px solid #ccc;
+    border: 2px solid #ccc;
+    border-color:rgba(255, 255, 255, 0.25);
     outline:0;
     margin-top:6px;
     background-color: transparent;
@@ -85,6 +98,7 @@ textarea{
     height: 200px;
     font-size:15px;
     border: 2px solid  #ccc;
+    border-color:rgba(255, 255, 255, 0.25);
     outline:0;
     margin-top:10px;
     resize:none;
@@ -98,8 +112,9 @@ h2{
 .button{
     padding:10px;
     font-size:15px;
-    border: 4px solid #ccc;
+    border: 2px solid #ccc;
     background-color: transparent;
+    border-color:rgba(255, 255, 255, 0.25);
     color:#ffffff;
     
 }
@@ -115,5 +130,6 @@ h2{
     font-family: sans-serif;
     outline:0px;
 }
-.question2{
+article{
+    display:inline-block
 }
