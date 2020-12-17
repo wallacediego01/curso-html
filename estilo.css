@@ -47,7 +47,7 @@ a{
 }
 .sub{
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-size: cover;
     display:inline-block;
     
@@ -80,7 +80,7 @@ a{
 }
 .topo2{
     width: 100%;
-    height: 200px;
+    height: 300px;
     padding-top: 20px;
     position:relative;
 }
@@ -110,13 +110,33 @@ a{
     ;
 
 }
+.conteudo3{
+    width:30%;
+    height:100px;
+    
+
+}
+.conteudo3 p{
+    width: 80%;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    display: block;
+    color:#353839;
+    line-height: 2;
+    margin-bottom: 40px;
+    ;
+
+}
 .botao a{
-    margin-top: 40px;
-    width:15%;
+    margin-top: 70px;
+    width:30%;
     background-color: transparente;
     color:#e5474b;
     border:solid 1px #e5474b;
-    margin-bottom: 30px;
+    position: relative;
+    display:block;
+    text-align: center;
 }
 
 .conteudo3{
