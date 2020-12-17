@@ -47,7 +47,7 @@ a{
 }
 .sub{
     width: 100%;
-    height: 200px;
+    height: 100px;
     display:inline-block;
     margin: 0 auto;
     
@@ -55,28 +55,55 @@ a{
 p{
     color:black;
 }
-#topo{
-    max-width:100%;
-    margin:auto;
-    display:inline-block;
-    padding: 20px;
+.topo{
+    width: 100%;
+    height:485px;
+    padding: 10px;
     position: relative;
+    margin: 0 auto;
 }
 .content{
+    position: relative;
+    width:50%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ddd;
+    padding: 40px;
     display: inline-block;
+    float: left;
+    
+
+}
+h2{
+    color: #e547;
+    size:30px;
+
+}
+.image-fit{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: black;
+}
+.topo2{
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+    position:relative;
+}
+.content2{
     position: relative;
     width:30%;
     height: 100px;
+    margin: 0 auto;
     background-color: #ddd;
     background-color: transparent;
-    padding: 20px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
 }
-.image-fit{
-    width: 80%;
-    height:50px;
-    position:relative;
-}
-#banner h1{
+
+#banner, h1{
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 3px;
