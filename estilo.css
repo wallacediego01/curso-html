@@ -128,6 +128,16 @@ a{
     ;
 
 }
+.botao1 a{
+    margin-top: 40px;
+    width:10%;
+    background-color: transparente;
+    color:#e5474b;
+    border:solid 1px #e5474b;
+    position: relative;
+    display:block;
+    text-align: center;
+}
 .botao a{
     margin-top: 70px;
     width:30%;
