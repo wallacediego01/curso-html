@@ -3,7 +3,7 @@
 }body {
     margin:0;
 }
-.centraliza-conteudo,{
+.centraliza-conteudo{
     max-width:1200px;
     margin:0 auto;
 }
@@ -37,12 +37,11 @@ a{
 #banner{
     width:100%;
     height:500px;
-    font-size: 100%;
     background-color: #0c0c0c;
     background-image: url("fundo.jpg");
-    background-size: 1200px;
+    background-size: cover;
     background-repeat: no-repeat;
-    color:#f2a3a5;
+    padding-top: 200px;
 
 }
 .sub{
@@ -74,11 +73,6 @@ p{
     
 
 }
-h2{
-    color: #e547;
-    size:30px;
-
-}
 .image-fit{
     width: 100%;
     height: 200px;
@@ -103,15 +97,21 @@ h2{
     float: left;
 }
 
-#banner, h1{
+#banner h1{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 3px;
     color:#ffffff;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    width:50%;
+    margin-bottom: 25px;
+
 }
 
 }
 label{
+    width:100%;
     display:inline-block;
     margin-bottom: 5px;
     color:#ffffff;
@@ -142,13 +142,15 @@ textarea{
     resize:none;
     background-color: transparent;
 }
-h2{
+ .content h3{
     display:block;
     font-size:30px;
     color:#e5474b;
     padding-top:50px;
     font-size: 30px;
     margin:0 auto;
+    font-weight: bold;
+    margin-bottom: 25px;
     
 }
 .button {
@@ -171,19 +173,22 @@ h2{
     position:relative;
     max-width:1200px;
     margin:0 auto;
-    float: left;
     height: 600px;
+    display:inline-block;
     
 }
 .question{
+    width:50%;
     display:inline-block;
     padding: 20px;
     color:#ffffff;
     font-family: sans-serif;
     outline:0px;
     margin-top: 0px;
+    float: left;
 }
 .question2{
+    width:100%;
     display:inline-block;
     padding: 20px;
     color:#ffffff;
