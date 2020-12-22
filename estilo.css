@@ -188,7 +188,7 @@ label{
 }
 textarea{
     padding:10px;
-    width:500px;
+    width: 80%;
     height: 200px;
     font-size:15px;
     border: 2px solid  #ccc;
@@ -197,6 +197,7 @@ textarea{
     margin-top:10px;
     resize:none;
     background-color: transparent;
+    
 }
  .content h3{
     display:block;
@@ -268,6 +269,7 @@ textarea{
     outline:0px;
     margin-top: 0px;
     float: left;
+    padding-left: 60px;
 }
 .question2{
     width:100%;
@@ -276,6 +278,7 @@ textarea{
     color:#ffffff;
     font-family: 'Lato', sans-serif;
     outline:0px;
+    padding-left: 60px;
     
 
 }
@@ -283,3 +286,8 @@ textarea{
     width:15%;
     margin-left: 20px;
 }
+.envio{
+    width:110;
+    margin-left: 60px;
+}
+
